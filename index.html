@@ -8,25 +8,50 @@
 <body>
     <header>
         <h1>📁 Study Server</h1>
-        <p>Select a category to view the files.</p>
+        <p>Select a category to view and download files.</p>
     </header>
 
-    <main class="file-container">
-        <div class="file-card">
-            <a href="#">🐍 Python</a>
-        </div>
-        <div class="file-card">
-            <a href="#">🛢️ SQL Lab</a>
-        </div>
-        <div class="file-card">
-            <a href="#">📘 ADLD</a>
-        </div>
-        <div class="file-card">
-            <a href="#">🧠 AI</a>
-        </div>
-        <div class="file-card">
-            <a href="#">📊 DAA</a>
-        </div>
+    <main class="file-section">
+        <!-- Python Files -->
+        <section class="category">
+            <h2>🐍 Python</h2>
+            <ul>
+                <li><a href="python/intro_to_python.pdf" target="_blank">📄 intro_to_python.pdf</a></li>
+                <li><a href="python/loops.py" download>💻 loops.py</a></li>
+            </ul>
+        </section>
+
+        <!-- SQL Lab -->
+        <section class="category">
+            <h2>🛢️ SQL Lab</h2>
+            <ul>
+                <li><a href="sql/sql_lab_1.sql" download>📄 sql_lab_1.sql</a></li>
+            </ul>
+        </section>
+
+        <!-- ADLD -->
+        <section class="category">
+            <h2>📘 ADLD</h2>
+            <ul>
+                <li><a href="adld/adld_notes.pdf" target="_blank">📄 adld_notes.pdf</a></li>
+            </ul>
+        </section>
+
+        <!-- AI -->
+        <section class="category">
+            <h2>🧠 AI</h2>
+            <ul>
+                <li><a href="ai/ai_intro.txt" download>📝 ai_intro.txt</a></li>
+            </ul>
+        </section>
+
+        <!-- DAA -->
+        <section class="category">
+            <h2>📊 DAA</h2>
+            <ul>
+                <li><a href="daa/daa_assignment.pdf" target="_blank">📄 daa_assignment.pdf</a></li>
+            </ul>
+        </section>
     </main>
 
     <footer>
